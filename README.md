@@ -1,6 +1,6 @@
 # Relation Extraction: ADE-Drug using SciBERT with Positional Tagging
 
-Developing a SciBERT model with positional tagging to extract relation between an ADE and a Drug
+Developing an NLU pipeline to determine Adverse Drug Event (ADE) due to a Drug from Clinical Notes. SciBERT model is used for this purpose which is pretrained on Computer Science and Biomedical research papers
 
 Task Overview: Obtain the established relation between a Drug with its Reason/ADE
 

@@ -9,3 +9,5 @@ Task Overview: Obtain the established relation between a Drug with its Reason/AD
 ▪ Positional Tagging is used in SciBERT, which helps learn the values of the newly added tokens to extract relations.
 
 ▪ Attained an accuracy (F1-score) of 78% for ADE-Drug
+
+

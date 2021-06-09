@@ -4,9 +4,9 @@ Developing an NLU pipeline to determine relations such as Adverse Drug Event (AD
 
 Task Overview: Obtain the established relation between a Drug with its Reason/ADE
 
-▪ Approach: SciBERT tokenizer and model with positional tagging is in the input is taken as the base model, which is then concatenated it with a fully connected    neural network with dropout of 30%, and fine-tuned on n2c2 dataset to develop a relation-extraction model
+▪ Approach: SciBERT tokenizer and model, with positional tagging in the input text, is taken as the base model, which is then concatenated it with a fully connected    neural network with dropout of 30%, and fine-tuned on n2c2 dataset to develop a relation-extraction model
 
-▪ Positional Tagging is used in SciBERT, which helps learn the values of the newly added tokens to extract relations.
+▪ Positional Tagging used in SciBERT helps learn the values of the newly added tokens to extract relations.
 
 ▪ Attained an accuracy (F1-score) of 78% for ADE-Drug
 

@@ -12,7 +12,7 @@ Pertaining to biomedical text corpus, SciBERT uses robust tokens compared to BER
 
 ![image](https://user-images.githubusercontent.com/32479901/128592648-cb50f2ef-9cee-40eb-a312-fdcc28ebdeb2.png)
 
-▪ Positional Tagging used in SciBERT helps learn the values of the newly added tokens to extract relations.
+▪ Positional Tagging used in SciBERT (eg: fever -> <ADE>fever</ADE>) helps learn the values of the newly added (<ADE>,<DRUGS>)tokens to extract relations.
 
 ▪ Attained an accuracy (F1-score) of 78% for ADE-Drug
 

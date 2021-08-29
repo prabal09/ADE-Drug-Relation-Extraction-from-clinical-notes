@@ -435,50 +435,9 @@ def sentence_segmenter(text):
 
 
 if __name__ == "__main__":
-    # [0, 5, 10, 15]
-    #print(text1.split())
-    #extract_hashtags(text1)
     filetxt = folders_txt[20]
-    fileann = folders_ann[20]
-    print(filetxt)
     df1 = extract_text(filetxt)
-    #print(df1)
-    #print(df1.corpus[len(df1)-1][0].__len__())
-    #print(sentence_segmenter(df1.corpus[0][0]))
     final_df = combine_ds(filetxt,fileann)
-    #print(final_df)
-    #print(final_df)
-    #print(final_df.columns)
-    #print(final_df.loc[3:6])
-    #df2 = expand_df_ade_drug(final_df)
     df3 = expand_df_reason_drug(final_df)
-    print(len(df3))
-    df2new = df3.sample(6)
-    print(df3['Reason_Drug_label'].sum(axis=0))
-    print(df2new.Reason_Drug_label.iloc[0])
-    print(df2new.corpus.iloc[0],end='\n')
-    print(df2new.Reason_Drug_label.iloc[1])
-    print(df2new.corpus.iloc[1],end='\n')
-    print(df2new.Reason_Drug_label.iloc[2])
-    print(df2new.corpus.iloc[2],end='\n')
-    print(df2new.Reason_Drug_label.iloc[3])
-    print(df2new.corpus.iloc[3],end='\n')
-    print(df2new.Reason_Drug_label.iloc[4])
-    print(df2new.corpus.iloc[4],end='\n')
-    print(df2new.Reason_Drug_label.iloc[5])
-    print(df2new.corpus.iloc[5],end='\n')
-    #print(len(df3))
-    #print(df3['Reason_Drug_label'].sum(axis=0))
-    #print(df3.sample(5))
-    #print(df3.head(len(df3)))
-    #print(len(df3))
-    #print(sum(df3.Reason_Drug_label))
-    #print(extract_text(filetxt))
-    #df = extract_text(filetxt)
-    #print(len(df))
-    #print(df.corpus[4][0])
-    #print(len(df.corpus[4][0]))
-    #fileann = folders_ann[0]
-    #di = extract_ann(fileann)
-    #print(di)
+
 
